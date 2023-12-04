@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Stephen Alcala</title>
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="formContainer">
+      <div id="formContent">
+        <h1>Login</h1>
+        <form id="loginForm">
+          <!-- <label for="username">Username:</label> -->
+          <input
+            type="text"
+            id="username"
+            required
+            placeholder="Username"
+          /><br /><br />
+          <!-- <label for="password">Password:</label> -->
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="Password"
+          /><br /><br />
+          <input type="submit" value="Login" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <div id="websiteContent">
+      <!-- header design -->
+      <header class="header">
+        <a href="#" class="logo">My Website</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#family">Family</a>
+          <a href="#resume">Resume</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <button class="btn" onclick="logout()">Logout</button>
+        </nav>
+      </header>
+
+      <!-- home section design -->
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Stephen Abella Alcala</h1>
+          <h3>And here is my <span>Profile</span></h3>
+          <p>
+            Let me introduce myself, I'm Stephen A. Alcala, a student of Far Eastern University Institute of Technology,
+			taking the course of Bachelor of Science in Information Technology Specialized in Animation and Game Development (BSIT-AGD).
+			And currently 20 years old, and live in Marikina City.
+          </p>
+          <div class="social-media">
+          <a href="https://www.facebook.com/stephen.abellaalcala"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/StepAlcala"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/alcalastephen_/"> <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC-kNc06i0m8Zc-2SzrCirzw"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <a href="Resume.html" class="btn">My Resume</a>
+        </div>
+        <div class="home-img">
+          <img src="images/Tech.png" style="width: 368.5px; height: 488.5px;">
+        </div>
+      </section>
+
+
+      <section class="portfolio" style="background: #323946" id="about">
+        <h2 class="heading">My <span>Gallery</span></h2>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="images/portfolio_3.jpg" alt="" />
+          </div>
+		   <div class="portfolio-box">
+            <img src="images/portfolio_2.png" alt="" />	
+          </div>
+          <div class="portfolio-box">
+            <img src="images/portfolio_4.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/portfolio_1.png" style="width: 312.5px; height: 488.5px;">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Stephen Alcala</h3>
+        <p>
+          I have a brother who is in high school, I have been in many Countries which,
+		is Singapore two times, Hongkong two times, Macau, Thailand, and Malaysia. My most memorable in Traveling was in a Cruise ship that went to 3 countries in 7 days.
+		I am really picky when in comes to friends because I have some past problems about relationship from my friends.
+		I get asked this a lot. People find it weird how passionate I am about travel. It started to make me feel weird and that I am thinking the wrong way about life,
+		making the wrong decisions, or missing something about the future that they see but I don't, and it's starting to worry me. Keep in mind,
+		there are always large pressures within every society that expects the people to be a certain way. Otherwise, they will be considered an outcast or judged negatively.
+        </p>
+      </div>
+    </section>
+
+      <!-- family section design -->
+      <section class="about" id="family">
+        <div class="about-img">
+		  <img src="images/family.jpg" alt="" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading">My <span>Family</span></h2>
+          <h3>Family is forever</h3>
+          <p>
+            My Dad's name is Jonathan Alcala and my Mothers name is Christine Joy Abella Alcala they are seperated
+			which makes us a broken family but I have a smaller brother which is Justin Kenji Abella Alcala we are only two and I am the oldest
+			When I was in my at the age of 1-10 I lived with my dad near my mom's house and when I get to highschool I lived in my mom's house because
+			I was helping my grandmother which is Maria Acunsion Abella I call her mama which is my lola.
+          </p>
+          <a href="Friends.html" class="btn">My Friends</a>
+        </div>
+      </section>
+
+      <section class="services" id="resume">
+        <h2 class="heading">My <span>Resume</span></h2>
+        <div class="services-container">
+
+          <div class="services-box">
+            <i class="fa-solid fa-chart-column"></i>
+            <h3>Standards</h3>
+            <p>
+			My specific standards for myself are I can finish my task on time and be creative about it, but sometimes it troubles me when I start a particular task.
+            </p>
+          </div>
+		  
+		  <div class="services-box">
+            <i class="fa fa-paint-brush"></i>
+            <h3>Why I chose AGD</h3>
+            <p>
+             I chose AGD (Animation and Game Development) because I once thought of instead playing the game why dont I make my
+			 own game? Having yourself make your own game is freely like anything you can imagine can be in a game or what
+			 genre you do. And having your own game be played by someone else is really makes me happy because they enjoy
+			 what contents have you put in.
+            </p>
+            <a href="https://www.feutech.edu.ph/academics/bsitagd" class="btn">Read More</a>
+          </div>
+		  
+          <div class="services-box">
+            <i class="fa fa-code"></i>
+            <h3>Code</h3>
+            <p>
+             My skills for coding in C++, HTML, and etc. is very average I can understand a code but making my own code
+			 is challanging for me but I can learn from by creating my own with Guide.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section design -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Hobbies</span></h2>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+
+            <div class="portfolio-layer">
+              <h4>WAALA PA</h4>
+              <p>
+                WALA
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <div class="portfolio-layer">
+              <h4>WALA PA</h4>
+              <p>
+                WALA PA
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-box">
+
+            <div class="portfolio-layer">
+              <h4>WALA PA </h4>
+              <p>
+               WALA PA
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="images/portfolio_5.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Gaming</h4>
+              <p>
+               I liked gaming since I held my first console which is Gameboy. Gaming entertains me as well I mostly don't play
+			   competitivly I play for fun in many Multiplayer games I enjoy gaming with my friends. I play console, PC, even
+			   mobile games.
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="images/portfolio_6.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Movies/TV Series</h4>
+              <p>
+               I enjoy watch Movies and TV Series. here are my Recommendations: Movie/TV series: How I Met Your Mother,
+			   Vikings, Breaking Bad, Rick and Morty, The Flash, Community, Close Enough, El Chapo, Money Heist,
+			   Dead Kids, Brooklyn nine-nine, Big bang theory, Sex Education, Lupin, Hell’s Kitchen, Hotel Hell
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="images/portfolio_7.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Cycling</h4>
+              <p>
+               I loved cycling around my hometown in Marikina I cycled when I was seven yearsold and I got my Mountain bike
+			   when I was in 11 yearsold my dad got ot form me and I got motivated more to cycle. I even go to a very high
+			   slope mountains like in timberland in sanmateo is one of my achievements of cycling and going to waterfalls with it.
+              </p>
+              <a href="#"><i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section design -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Mobile Number" />
+            <input type="text" placeholder="Email Subject" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+      </section>
+
+      <!-- footer design -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2023 by Stephen Alcala | All Rights Reserved.</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/stephen.abellaalcala"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/StepAlcala"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/alcalastephen_/"> <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC-kNc06i0m8Zc-2SzrCirzw"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+	
+  </body>
+</html>
+
